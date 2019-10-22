@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class quickSort {
     public static void main(String[] args) {
+        System.out.println("hahah");
         int [] a=new int[800000];
         for(int i=0;i<a.length;i++){
             a[i]= (int)(Math.random()*800000); //生成[0,800000)的随机数进行快排速度测试
