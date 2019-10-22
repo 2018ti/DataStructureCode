@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class quickSort {
     public static void main(String[] args) {
+        System.out.println("本地添加");
         System.out.println("hahah");
         int [] a=new int[800000];
         for(int i=0;i<a.length;i++){
