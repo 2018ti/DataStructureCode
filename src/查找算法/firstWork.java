@@ -4,7 +4,6 @@ import java.util.Map;
 
 public class firstWork {
     public static void main(String[] args) {
-        System.out.println("多分支同时修改");
         int[] arr={1,2,4,6,7,8,10,24,35,40};
         Map map = BinarySearch(arr,0,arr.length-1,11);
         if(map.get("true")!=null){
