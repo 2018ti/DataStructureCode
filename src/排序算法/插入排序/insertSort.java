@@ -1,4 +1,4 @@
-package 插入排序;
+package 排序算法.插入排序;
 
 import java.util.Arrays;
 

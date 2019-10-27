@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class halfSearch {
+public class BinarySearch {
     public static void main(String[] args) {
         int[] arr={1,2,3,6,8,9,10,45,49};
         int index= halfSearch(arr,0,arr.length-1,8);

@@ -1,8 +1,6 @@
-package 快速排序;
+package 排序算法.快速排序;
 
 import java.util.Arrays;
-import java.util.Date;
-import java.util.Random;
 
 public class quickSort {
     public static void main(String[] args) {
