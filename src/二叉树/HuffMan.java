@@ -1,15 +1,15 @@
 package 二叉树;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
 
 public class HuffMan {
     public static void main(String[] args) {
         int[] a={13,7,8,3,29,6,1};
         Node node = CreateHuffMan(a);
         preOrder(node);
+
+
     }
     public static Node CreateHuffMan(int[] a){
         ArrayList<Node> lists = new ArrayList<Node>();
